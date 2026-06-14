@@ -27,11 +27,55 @@ The best prompts say what to do and when to come back to you.
 Stops the agent from guessing, and makes it show its plan before it touches anything.
 
 ```
-Super important: if you don't fully understand what I want, ask me questions before you start. Do not guess.
+Super important: if you don't understand something, ask me questions before you start. 
 
-Before you execute anything non-trivial, show me the plan first: the steps you're about to take. Wait for my OK, then go.
+After resolving all questions, show me the steps you're about to take. Wait for my OK, then go.
 
-Keep it simple. Surface what's unclear, don't hide it.
+Keep it simple, be brief and concise. Surface what's unclear, don't hide it.
+```
+
+### afk-mode
+
+The opposite of ask-first. Hand it the wheel and walk away.
+
+```
+AFK mode. I'm away, take the task end to end.
+
+Make every call yourself, never stop to confirm. When unsure, pick the sensible default and note it. Nothing destructive. Stop only when it's done or you're truly blocked.
+
+When I'm back, leave a short report: what you did, and any calls worth checking.
+```
+
+### rubber-duck
+
+Makes the agent help you debug by asking, not answering, so you find it yourself.
+
+```
+Be my rubber duck. I'm going to explain a problem I'm stuck on.
+
+Don't solve it. Ask me simple questions, one at a time, the kind that make me explain my own reasoning out loud. 
+
+Point out where my explanation skips a step or contradicts itself. Let me reach the answer myself.
+
+Only if I'm still stuck after a few rounds, offer a direction.
+
+Keep it simple, be brief and concise.
+```
+
+*Why it works: [Rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging).*
+
+### second-opinion
+
+Turns the agent into a skeptic before you commit to a plan.
+
+```
+Before I commit to this, argue against it.
+
+Give me the real case for doing it a different way, the one a smart skeptic would make. Make it as strong as you honestly can, not a weak version I can wave off. Then tell me which you'd actually pick, and why.
+
+If my plan is genuinely fine, just say so. Don't invent objections.
+
+Keep it simple, be brief and concise.
 ```
 
 ### clean-the-codebase
@@ -56,44 +100,6 @@ Rules:
 - Nothing destructive. Do not commit. Leave changes in the working tree.
 
 End with a short summary: what changed by category, what checks you ran, anything you left alone on purpose.
-```
-
-### afk-mode
-
-The opposite of ask-first. Hand it the wheel and walk away.
-
-```
-AFK mode. I'm away, take the task end to end.
-
-Make every call yourself, never stop to confirm. When unsure, pick the sensible default and note it. Nothing destructive. Stop only when it's done or you're truly blocked.
-
-When I'm back, leave a short report: what you did, and any calls worth checking.
-```
-
-### rubber-duck
-
-Makes the agent help you debug by asking, not answering, so you find it yourself.
-
-```
-Be my rubber duck. I'm going to explain a problem I'm stuck on.
-
-Don't solve it. Ask me simple questions, one at a time, the kind that make me explain my own reasoning out loud. Point out where my explanation skips a step or contradicts itself. Let me reach the answer myself.
-
-Only if I'm still stuck after a few rounds, offer a direction.
-```
-
-*Why it works: [Rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging).*
-
-### second-opinion
-
-Turns the agent into a skeptic before you commit to a plan.
-
-```
-I'm about to do <thing>. Argue against it.
-
-Give me the strongest case for a different approach, the one a smart skeptic would make. Steelman it, don't strawman. Then tell me which you'd actually pick, and why.
-
-If my plan is genuinely fine, say so plainly. Don't invent objections.
 ```
 
 ## License
