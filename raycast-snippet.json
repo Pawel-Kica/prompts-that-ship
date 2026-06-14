@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Ask First",
+    "keyword": "!as",
+    "text": "Super important: if you don't understand something, ask me questions before you start.\n\nAfter resolving all questions, show me the steps you're about to take. Wait for my OK, then go.\n\nKeep it simple, be brief and concise. Surface what's unclear, don't hide it."
+  },
+  {
+    "name": "AFK Mode",
+    "keyword": "!af",
+    "text": "AFK mode. I'm away, take the task end to end.\n\nMake every call yourself, never stop to confirm. When unsure, pick the sensible default and note it. Nothing destructive. Stop only when it's done or you're truly blocked.\n\nWhen I'm back, leave a short report: what you did, and any calls worth checking."
+  },
+  {
+    "name": "Rubber Duck",
+    "keyword": "!rd",
+    "text": "Be my rubber duck. I'm going to explain a problem I'm stuck on.\n\nDon't solve it. Ask me simple questions, one at a time, the kind that make me explain my own reasoning out loud.\n\nPoint out where my explanation skips a step or contradicts itself. Let me reach the answer myself.\n\nOnly if I'm still stuck after a few rounds, offer a direction.\n\nKeep it simple, be brief and concise."
+  },
+  {
+    "name": "Second Opinion",
+    "keyword": "!2s",
+    "text": "Before I commit to this, argue against it.\n\nGive me the real case for doing it a different way, the one a smart skeptic would make.\n\nMake it as strong as you honestly can, not a weak version I can wave off. Then tell me which you'd actually pick, and why.\n\nIf my plan is genuinely fine, just say so. Don't invent objections.\n\nKeep it simple, be brief and concise."
+  }
+]
