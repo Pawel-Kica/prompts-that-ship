@@ -71,7 +71,9 @@ Turns the agent into a skeptic before you commit to a plan.
 ```
 Before I commit to this, argue against it.
 
-Give me the real case for doing it a different way, the one a smart skeptic would make. Make it as strong as you honestly can, not a weak version I can wave off. Then tell me which you'd actually pick, and why.
+Give me the real case for doing it a different way, the one a smart skeptic would make. 
+
+Make it as strong as you honestly can, not a weak version I can wave off. Then tell me which you'd actually pick, and why.
 
 If my plan is genuinely fine, just say so. Don't invent objections.
 
