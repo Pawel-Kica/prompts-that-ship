@@ -8,15 +8,15 @@ Copy one, paste it into your agent (Claude Code, Cursor, whatever), fill in the 
 
 No framework, just what works.
 
-### Set the goal, not the steps
+### 1. Set the goal, not the steps
 
 Tell it what "done" looks like and let it find the path. "Clean this codebase until nothing's worth fixing" beats a 12-step checklist.
 
-### Only the guardrails that matter
+### 2. Only the guardrails that matter
 
 "Zero behavior change, don't commit" earns its place. Everything else is noise.
 
-### Tell it when to stop or ask
+### 3. Tell it when to stop or ask
 
 The best prompts say what to do and when to come back to you.
 
