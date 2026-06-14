@@ -8,11 +8,17 @@ Copy one, paste it into your agent (Claude Code, Cursor, whatever), fill in the 
 
 No framework, just what works.
 
-1. **Set the goal, not the steps.** Tell it what "done" looks like and let it find the path. "Clean this codebase until nothing's worth fixing" beats a 12-step checklist.
-2. **Only the guardrails that matter.** "Zero behavior change, don't commit" earns its place. Everything else is noise.
-3. **One job per prompt.** A small variation is a new prompt, not a bigger one.
-4. **Tell it when to stop or ask.** The best prompts say what to do *and* when to come back to you.
-5. **Write like you talk.** Ceremony does not make it smarter.
+### Set the goal, not the steps
+
+Tell it what "done" looks like and let it find the path. "Clean this codebase until nothing's worth fixing" beats a 12-step checklist.
+
+### Only the guardrails that matter
+
+"Zero behavior change, don't commit" earns its place. Everything else is noise.
+
+### Tell it when to stop or ask
+
+The best prompts say what to do and when to come back to you.
 
 ## The prompts
 
