@@ -106,7 +106,12 @@ End with a short summary: what changed by category, what checks you ran, anythin
 
 ## Use them as Raycast snippets
 
-Prefer text expansion over copy-paste? [`raycast-snippet.json`](raycast-snippet.json) has the first four ready to import into [Raycast](https://www.raycast.com/). Run the **Import Snippets** command, pick the file, and type the keyword anywhere to expand the full prompt. Rename the keywords to taste.
+Prefer text expansion over copy-paste? [`raycast-snippet.json`](raycast-snippet.json) has the first four ready to import into [Raycast](https://www.raycast.com/).
+
+- [ ] Run the **Import Snippets** command in Raycast
+- [ ] Pick `raycast-snippet.json`
+- [ ] Type a keyword anywhere to expand the full prompt
+- [ ] Rename the keywords to taste
 
 | Keyword | Prompt |
 |---|---|
